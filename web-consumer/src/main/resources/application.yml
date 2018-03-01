@@ -1,0 +1,7 @@
+server:
+  port: 9091
+spring:
+  dubbo:
+    appname: springboot-dubbo-consumer-test
+    registry: zookeeper://192.168.25.128:2181
+    protocol: dubbo
