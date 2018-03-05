@@ -1,6 +1,7 @@
 package top.kylewang.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Component;
 import top.kylewang.pojo.User;
 import top.kylewang.service.UserService;
 
@@ -8,6 +9,7 @@ import top.kylewang.service.UserService;
  * @author Kyle.Wang
  * 2018-03-01 12:04
  */
+@Component
 @Service(interfaceClass = UserService.class)
 public class UserServiceImpl implements UserService {
 
